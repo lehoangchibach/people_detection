@@ -7,7 +7,7 @@ This repository implements a deep learning approach for accurately estimating th
 
 ## Note
 
-##### Milestone 1
+#### Milestone 1
 Our Milestone 1 work is in `process_data.ipynb`. \
 The training and validation images used in our project will be stored in `images/train/`, and the testing images will be stored in `images/val/`. We only use training and validation data, as TJU-DHD does not provide annotation for the test dataset.
 
@@ -18,7 +18,9 @@ Dataset: [https://github.com/tjubiit/TJU-DHD](https://github.com/tjubiit/TJU-DHD
 
 Date loader: [https://github.com/cocodataset/cocoapi](https://github.com/cocodataset/cocoapi)
 
-##### Milestone 2
+#### Milestone 2
 For Milestone 2, we implemented the YOLOv8 object detection model. 
 
-In order to do so, 
+In order to do so, we first processed the images found in `images/train/` and `images/val/` splitting the training data into training and validation and using the validation data as the test data. Next, we need to annotate the images by creating tuples of the image ID and a list of the labeled bounding boxes of the objects within the image. 
+
+The next step is to build and train the model. Specifically, we initialize the YOLOv8 model 
