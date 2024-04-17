@@ -23,4 +23,9 @@ For Milestone 2, we implemented the YOLOv8 object detection model.
 
 In order to do so, we first processed the images found in `images/train/` and `images/val/` splitting the training data into training and validation and using the validation data as the test data. Next, we need to annotate the images by creating tuples of the image ID and a list of the labeled bounding boxes of the objects within the image. 
 
-The next step is to build and train the model. Specifically, we initialize the YOLOv8 model 
+The next step is to build and train the model. Specifically, we initialize the YOLOv8 model, first by initializing the YOLOv8 backbone using a preset configuration for the YOLOv8 small backbone with COCO weights and then initializing the YOLOv8 detector model. 
+
+Next, we train the model utilizing the training data processed in the previous steps. 
+
+After training, our results are as follows:
+*not sure what the results are yet*
