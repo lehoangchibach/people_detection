@@ -27,5 +27,8 @@ The next step is to build and train the model. Specifically, we initialize the Y
 
 Next, we train the model utilizing the training data processed in the previous steps. 
 
-After training, our results are as follows:
-*not sure what the results are yet*
+After training the model, the model's performance on the test data are as follows:
+
+not sure what the results are yet
+
+To run:
