@@ -7,7 +7,7 @@ This repository implements a deep learning approach for accurately estimating th
 
 ## Instructions
 Our Milestone 1 work is in `process_data.ipynb`. \
-Our Milestone 2 work is in `VGG16_based.ipynb` and `yolov8_based.ipynb`. As described in the next section, we tried two different approaches for milestone 2 since VGG16 approach was not promising. Both approaches have the data loading-preparation-training-evaluation pipeline, but `yolov8_based.ipynb` is more complete as we decided to use YOLO v8 architecture. We uploaded `VGG16_based.ipynb` for the reference.
+Our Milestone 2 work is in `VGG16_based.ipynb` and `yolov8_based.ipynb`. As described in the next section, we tried two different approaches for milestone 2 since VGG16 approach was not promising. Both approaches have the data loading-preparation-training-evaluation pipeline, but `yolov8_based.ipynb` is more complete as we decided to use YOLO v8 architecture. We uploaded `VGG16_based.ipynb` for the reference. Please grade `yolov8_based.ipynb` and consider `VGG16_based.ipynb` as an extra work.
 
 The training and validation images used in our project will be stored in `images/train/`, and the testing images will be stored in `images/val/`. We only use training and validation data, as TJU-DHD does not provide annotation for the test dataset.
 
