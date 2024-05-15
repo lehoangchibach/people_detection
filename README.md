@@ -11,7 +11,9 @@ Our Milestone 1 work is in `process_data.ipynb`. \
 Our final work is in `VGG16_based.ipynb`, `yolov8_based.ipynb`, and `yolov8_measure_performance.ipynb`. We tried two different approaches for milestone 2 since the VGG16 approach was not promising. Both approaches have the data loading-preparation-training-evaluation pipeline. 
 
 `VGG16_based.ipynb` contains the loading-preparation-training-evaluation pipeline for the VGG16-based model. `yolov8_based.ipynb` contains the loading-preparation-training pipeline for the YOLO-based model, and `yolov8_measure_performance.ipynb` contains the evaluation of the YOLO-based model. In the final report, we compared the performances of both architectures.
+The training history of fully_trained_yolov8 model will be store in `runs` with tensorboard.
 
+The training history of fully_trained_yolov8 model will be store in `runs` with tensorboard.
 The training and validation images used in our project will be stored in `images/train/`, and the testing images will be stored in `images/val/`. We only use training and validation data, as TJU-DHD does not provide annotation for the test dataset. The two annotation JSON files will be stored in `annotations` directory.
 
 We did not upload images to this repository as the file size is too large. Please download it from the following website.
